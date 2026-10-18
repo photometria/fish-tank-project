@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f5;
+    color: #173842;
+    margin: 0;
+    padding: 12px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    margin: 12px 0;
+}
+
+#tank {
+    position: relative;
+    width: 95%;
+    max-width: 900px;
+    min-width: 160px;
+    height: 490px;
+    margin: 20px auto;
+    border: 10px solid #000000;
+    border-top: none;
+    background: linear-gradient(#f2fac6, #689cd8);
+}
+
+.fish {
+    position: absolute;
+    width: 56px;
+    height: 66px;
+    cursor: pointer;
+}
+
+.fish:focus {
+    outline: 2px solid #173842;
+}
